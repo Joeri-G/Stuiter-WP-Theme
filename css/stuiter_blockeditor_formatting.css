@@ -1,0 +1,14 @@
+.geen-opvulling-boven,
+.no-padding-top {
+  padding-top: 0!important;
+}
+
+.geen-opvulling-onder,
+.no-padding-bottom {
+  padding-bottom: 0!important;
+}
+
+.geen-titel,
+.no-title {
+  display: none;
+}

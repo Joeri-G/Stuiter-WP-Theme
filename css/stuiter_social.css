@@ -1,0 +1,85 @@
+/*
+Stylesheet for a CSS-only approach to adding icons to social links
+ */
+
+.social-links {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.5rem;
+}
+.social-links ul {
+  list-style: none;
+}
+.social-links a {
+  color: #000;
+  text-decoration: none;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+  color: #666;
+  text-decoration: underline;
+}
+
+.social-links a::before {
+  font-family: dashicons;
+  display: inline-block;
+  line-height: 1;
+  font-weight: 400;
+  font-style: normal;
+  speak: none;
+  text-transform: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1em;
+  height: 1em;
+  font-size: 1em;
+  vertical-align: bottom;
+  text-align: center;
+  transition: color .1s ease-in;
+  text-decoration: none!important;
+  color: #000!important;
+  margin-right: 0.2em;
+}
+
+/* default */
+.social-links a::before {
+  content: "\f237";
+}
+
+/* if href contains rss/RSS */
+.social-links a[href*="rss"]::before,
+.social-links a[href*="RSS"]::before {
+  content: "\f303";
+}
+
+/* if href contains mail or starts with mailto */
+.social-links a[href*="mail"]::before,
+.social-links a[href^="mailto:"]::before {
+  content: "\f466";
+}
+
+/* if url contains ://www.twitter.com */
+.social-links a[href*="://www.twitter.com"]::before {
+  content: "\f301";
+}
+
+/* if url contains ://www.facebook.com */
+.social-links a[href*="://www.facebook.com"]::before {
+  content: "\f304";
+}
+
+/* if url contains ://www.instagram.com */
+.social-links a[href*="://www.instagram.com"]::before {
+  content: "\f12d";
+}
+
+/* media queries to scale the text */
+@media (max-width: 1000px) {
+  .social-links {
+    position: absolute;
+    bottom: 0;
+    font-size: 1.2rem;
+  }
+}
