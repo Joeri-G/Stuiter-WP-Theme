@@ -1,11 +1,11 @@
 .geen-opvulling-boven,
 .no-padding-top {
-  padding-top: 0!important;
+  margin-top: 0!important;
 }
 
 .geen-opvulling-onder,
 .no-padding-bottom {
-  padding-bottom: 0!important;
+  margin-bottom: 0!important;
 }
 
 .geen-titel,
