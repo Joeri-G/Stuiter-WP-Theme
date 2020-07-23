@@ -12,7 +12,7 @@ html, body {
 }
 
 :root {
-  --width-main: 1040px;
+  --width-main: 1070px;
   --width-aside: 256px;
   --width-content-body: calc(var(--width-main) - var(--width-aside) - 5em);
 
@@ -104,8 +104,8 @@ nav .logo {
   background: var(--nav-bar-2nd-bg-color);
   color: var(--nav-bar-2nd-text-color);
   margin: 1rem 0;
-  font-size: 1.75em;
-  min-height: 3.75rem;
+  font-size: 1.6em;
+  min-height: 3.5rem;
 }
 
 .nav-lower a {
