@@ -42,12 +42,6 @@ get_header();
   </aside>
   <!-- main document part -->
   <section>
-    <h1>
-      <!-- Add The Post Content To The Page Body -->
-      <?php
-        the_title();
-      ?>
-    </h1>
     <?php
     while(have_posts()): // if there are posts, show them
       the_post();?>
