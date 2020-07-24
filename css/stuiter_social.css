@@ -61,17 +61,20 @@ Stylesheet for a CSS-only approach to adding icons to social links
 }
 
 /* if url contains ://www.twitter.com */
-.social-links a[href*="://www.twitter.com"]::before {
+.social-links a[href*="://www.twitter.com"]::before,
+.social-links a[href*="://twitter.com"]::before {
   content: "\f301";
 }
 
 /* if url contains ://www.facebook.com */
-.social-links a[href*="://www.facebook.com"]::before {
+.social-links a[href*="://www.facebook.com"]::before,
+.social-links a[href*="://facebook.com"]::before {
   content: "\f304";
 }
 
 /* if url contains ://www.instagram.com */
-.social-links a[href*="://www.instagram.com"]::before {
+.social-links a[href*="://www.instagram.com"]::before,
+.social-links a[href*="://instagram.com"]::before {
   content: "\f12d";
 }
 
