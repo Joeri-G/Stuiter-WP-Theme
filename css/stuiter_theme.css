@@ -51,11 +51,12 @@ main {
   height: auto;
 }
 
-nav .logo {
+.logo {
   width: auto;
   max-width: min(20vw, 184px);
   margin-left: 1rem;
   display: inline-block;
+  height: 79px;
 }
 
 .nav-top-text {
