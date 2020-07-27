@@ -12,3 +12,16 @@
 .no-title {
   display: none;
 }
+
+.geen-mobile-break.wp-block-columns,
+.no-mobile-break.wp-block-columns,
+/**/
+.geen-mobile-break .wp-block-columns,
+.no-mobile-break .wp-block-columns {
+  display: flex;
+}
+/**/
+.geen-mobile-break .wp-block-column:not(:first-child),
+.no-mobile-break .wp-block-column:not(:first-child) {
+  margin-left: 32px;
+}
