@@ -42,7 +42,7 @@ get_header();
   </aside>
   <!-- main document part -->
   <section>
-    <h1>
+    <h1 class="BebasNeue">
       <!-- Add The Post Content To The Page Body -->
       <?php
         the_title();
