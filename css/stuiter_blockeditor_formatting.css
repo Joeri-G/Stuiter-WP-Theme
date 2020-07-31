@@ -27,5 +27,6 @@
 }
 /**/
 hr.dikke-scheidingslijn, hr.wide-separator {
-  height: 8px;
+  height: 6px;
+  border: none;
 }
