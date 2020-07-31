@@ -25,3 +25,7 @@
 .no-mobile-break .wp-block-column:not(:first-child) {
   margin-left: 32px;
 }
+/**/
+hr.dikke-scheidingslijn, hr.wide-separator {
+  height: 8px;
+}
